@@ -1,38 +1,61 @@
-Hey everyone! 👋
-The dataset that we will be using for this is this: https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset/data 
+# Week 1: Plant Disease Classification - Getting Started 🌱
 
-There are some baby steps like downloading the dataset, and setting up the environment, butt we are assuming you will be able to do those, the instructions are given on kaggle's website. 
+Hey everyone! 👋 
 
-Some pointers:
-It is better if for EDA, we use the available Kaggle notebooks, instead of downloading the entire dataset
-here's what you have to do in week 1, 
-You must implement the given things, we are not giving resources for downloading 
+## Dataset
 
-Must-do resources (compulsory):
+We'll be using the PlantVillage dataset for this project:
+- **Link**: [PlantVillage Dataset on Kaggle](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset/data)
 
-Neptune.ai EDA guide – How to properly explore image datasets (class imbalance, augmentations, small objects, etc.)
-https://neptune.ai/blog/data-exploration-for-image-segmentation-and-object-detection​
+### Setup Notes
+- Download instructions are available on Kaggle's website
+- For EDA, use available Kaggle notebooks instead of downloading the entire dataset locally
+- We're assuming you can handle the basic setup (downloading dataset, environment configuration)
 
-OpenCV Crash Course (3 hrs) – Image manipulation basics we'll use throughout
-https://opencv.org/university/free-courses/​
+## Week 1 Requirements
 
-Fast.ai Lesson 1 (90 min) – Build your first image classifier, super practical
-https://course.fast.ai/Lessons/lesson1.html​​
+### Must-Do Resources (Compulsory)
 
-Plant Disease Tutorial (45 min) – End-to-end CNN project with Docker
-https://www.youtube.com/watch?v=L-Tqf1w5d0I​
+Complete all of these resources and implement the concepts:
 
-PlantVillage Dataset (45 min) – Explore the actual dataset, try basic EDA
-https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset​
+1. **Neptune.ai EDA Guide** (Image datasets exploration)
+   - Focus: Class imbalance, augmentations, small objects
+   - Link: [Data Exploration for Image Segmentation and Object Detection](https://neptune.ai/blog/data-exploration-for-image-segmentation-and-object-detection)
 
-This covers: PyTorch basics, vision fundamentals, and EDA – everything you need before we dive into federated learning with Flower, FastAPI, and deployment.​
+2. **OpenCV Crash Course** (3 hours)
+   - Focus: Image manipulation basics
+   - Link: [OpenCV University Free Courses](https://opencv.org/university/free-courses/)
 
-Optional (if you finish early or want more depth):
+3. **Fast.ai Lesson 1** (90 minutes)
+   - Focus: Build your first image classifier
+   - Link: [Fast.ai Practical Deep Learning - Lesson 1](https://course.fast.ai/Lessons/lesson1.html)
 
-Hugging Face CV Course: https://huggingface.co/learn/computer-vision-course​
+4. **Plant Disease Tutorial** (45 minutes)
+   - Focus: End-to-end CNN project with Docker
+   - Link: [YouTube Tutorial](https://www.youtube.com/watch?v=L-Tqf1w5d0I)
 
-PyImageSearch free crash course: https://pyimagesearch.com/free-opencv-computer-vision-deep-learning-crash-course/​
+5. **PlantVillage Dataset Exploration** (45 minutes)
+   - Focus: Explore the dataset, perform basic EDA
+   - Link: [Kaggle Dataset](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset)
 
-Goal: By week 1, everyone should be comfortable with image loading, basic augmentation, and training a simple classifier. Then we scale to federated systems + production deployment 🚀
+**What This Covers**: PyTorch basics, vision fundamentals, and EDA – everything you need before diving into federated learning with Flower, FastAPI, and deployment.
 
-Questions? Drop them in the group!
+### Optional Resources (If You Finish Early)
+
+Want more depth? Check these out:
+
+- **Hugging Face Computer Vision Course**: [HF CV Course](https://huggingface.co/learn/computer-vision-course)
+- **PyImageSearch Free Crash Course**: [OpenCV + Deep Learning Crash Course](https://pyimagesearch.com/free-opencv-computer-vision-deep-learning-crash-course/)
+
+## Week 1 Goal
+
+By the end of Week 1, everyone should be comfortable with:
+- Image loading and preprocessing
+- Basic data augmentation techniques
+- Training a simple classifier
+
+**Next Steps**: Scale to federated systems + production deployment 🚀
+
+## Questions?
+
+Drop them in the group! We're here to help.
