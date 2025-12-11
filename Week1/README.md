@@ -120,24 +120,11 @@ Want more depth? Check these out:
 **Organization**
 - Use meaningful notebook/file names: `01_EDA.ipynb`, `02_opencv_experiments.ipynb`
 - Add markdown cells explaining what each code section does
-- Comment your code - your teammates (and future you) will thank you
 
 **Version Control**
 - Use Git properly: meaningful commit messages ("Add class distribution analysis" not "Update file")
 - Commit frequently - don't wait until everything is perfect
 - Each person work on separate notebooks to avoid merge conflicts
-
-### Collaboration Tips
-
-**Daily Check-ins (10 mins)**
-- Share: "Today I learned X, struggled with Y, tomorrow I'll tackle Z"
-- Post interesting code snippets or visualizations in the group
-- Help debug together - explaining problems helps understanding
-
-**Knowledge Sharing**
-- Create shared Google Doc/Notion with key learnings and resources
-- Screenshot important parts of tutorials for quick reference
-- Build a team FAQ as questions come up
 
 ## Week 1 Goal & Deliverables
 
