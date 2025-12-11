@@ -2,6 +2,12 @@
 
 Hey everyone! 👋 
 
+## Week 1 RoadMap
+1. Create a Kaggle Account if you have none, link it with GitHub. 
+2. Create a GitHub repository for WiDS 5.0 and add the notebook into that GitHub repo. 
+3. Create the Kaggle notebook and using the add input button, add the dataset that we have given (directly pasting the link in the search bar that opens, leads to that dataset)
+4. Read from neptune.ai and other sources if you want to, and come up with some more insights. 
+
 ## Dataset
 
 We'll be using the PlantVillage dataset for this project:
@@ -14,38 +20,26 @@ We'll be using the PlantVillage dataset for this project:
 
 ## Week 1 Requirements
 
-### Must-Do Resources (Compulsory)
+### Must-Do (Compulsory)
 
-Complete all of these resources and implement the concepts:
+#### Coding Resources
+These are notebooks that have used EDA techniques on different datasets. You are expected to read and replicate these for our dataset.
+
+1.  Basic [Exploratory Data Analysis (EDA) for Image Datasets](https://www.kaggle.com/code/faldoae/exploratory-data-analysis-eda-for-image-datasets)
+
+#### Reading Resources
+
+Read these resources, and prepare content for the 2 minute presentations that we are going to have. 
 
 1. **Neptune.ai EDA Guide** (Image datasets exploration)
-   - Focus: Class imbalance, augmentations, small objects
+   - Focus on Class imbalance, augmentations, small objects
    - Link: [Data Exploration for Image Segmentation and Object Detection](https://neptune.ai/blog/data-exploration-for-image-segmentation-and-object-detection)
 
-2. **OpenCV Crash Course** (3 hours)
-   - Focus: Image manipulation basics
-   - Link: [OpenCV University Free Courses](https://opencv.org/university/free-courses/)
+2. **[MLDemystified](https://mldemystified.com/)**
+	- Read the articles, they are very well explained, we will be trying to implement some 
 
-3. **Fast.ai Lesson 1** (90 minutes)
-   - Focus: Build your first image classifier
-   - Link: [Fast.ai Practical Deep Learning - Lesson 1](https://course.fast.ai/Lessons/lesson1.html)
-
-4. **Plant Disease Tutorial** (45 minutes)
-   - Focus: End-to-end CNN project with Docker
-   - Link: [YouTube Tutorial](https://www.youtube.com/watch?v=L-Tqf1w5d0I)
-
-5. **PlantVillage Dataset Exploration** (45 minutes)
-   - Focus: Explore the dataset, perform basic EDA
-   - Link: [Kaggle Dataset](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset)
-
-**What This Covers**: PyTorch basics, vision fundamentals, and EDA – everything you need before diving into federated learning with Flower, FastAPI, and deployment.
-
-### Optional Resources (If You Finish Early)
-
-Want more depth? Check these out:
-
-- **Hugging Face Computer Vision Course**: [HF CV Course](https://huggingface.co/learn/computer-vision-course)
-- **PyImageSearch Free Crash Course**: [OpenCV + Deep Learning Crash Course](https://pyimagesearch.com/free-opencv-computer-vision-deep-learning-crash-course/)
+### Optional 
+Try and find some other methods, and 
 
 ## Week 1 Best Practices 💡
 
@@ -67,54 +61,6 @@ Want more depth? Check these out:
 - Test if YOU can distinguish between similar diseases visually
 - Look for patterns: Do certain plants have more consistent image quality?
 
-### OpenCV Learning Strategy
-
-**Active Practice (Don't Just Watch)**
-- After learning each concept, test it on 2-3 PlantVillage images immediately
-- Create an `opencv_experiments.ipynb` for quick tests
-- Try these mini-exercises:
-  - Load, resize, and display images
-  - Convert between color spaces (RGB, HSV) - see if diseases show up differently
-  - Apply blur, edge detection - understand which operations preserve disease features
-
-**Focus Areas for This Week**
-- Image loading and basic operations (CRITICAL)
-- Resizing and transformations (CRITICAL)
-- Color space conversions
-- Skip advanced topics for now - revisit when needed
-
-### Fast.ai & PyTorch Fundamentals
-
-**Code Along Actively**
-- Pause every 10 minutes and implement what was shown
-- Don't just watch - type the code yourself and experiment
-- Try replacing their examples with PlantVillage data
-
-**Master These PyTorch Basics**
-- Tensor operations: reshaping, indexing, concatenation
-- Understanding `DataLoader`: batch size, shuffle, num_workers
-- Tensor shapes: Always print and verify `[batch, channels, height, width]`
-- Moving tensors between CPU and GPU
-
-**Common Mistakes to Avoid**
-- Not checking tensor shapes at each step
-- Forgetting image normalization (divide by 255)
-- Mixing up dimension ordering
-
-### Time Management Tips
-
-**Strategic Resource Allocation**
-- **OpenCV (3 hrs)**: Focus heavily on Hour 1-2 (basics & transformations), skim Hour 3
-- **EDA**: Spend max 2 days - you can always revisit later
-- **Neptune Guide**: Read actively with PlantVillage open in another tab
-- If stuck >30 mins on something, ask in the group!
-
-**Divide and Conquer** (for teams)
-- Person A: Deep dive OpenCV, create cheat sheet
-- Person B: Thorough EDA, document insights
-- Person C: PyTorch fundamentals, share code snippets
-- Everyone: Watch Plant Disease tutorial together, discuss afterward
-
 ### Code Quality from Day 1
 
 **Organization**
@@ -122,9 +68,12 @@ Want more depth? Check these out:
 - Add markdown cells explaining what each code section does
 
 **Version Control**
-- Use Git properly: meaningful commit messages ("Add class distribution analysis" not "Update file")
+- Use Github properly: meaningful commit messages ("Add class distribution analysis" not "Update file")
 - Commit frequently - don't wait until everything is perfect
 - Each person work on separate notebooks to avoid merge conflicts
+
+
+
 
 ## Week 1 Goal & Deliverables
 
@@ -136,15 +85,8 @@ By the end of Week 1, you should have:
 - Image resolution/size analysis
 - At least 2-3 meaningful insights about the dataset
 
-✅ **Solid fundamentals**:
-- Comfortable loading and manipulating images with OpenCV
-- Understanding of basic PyTorch operations
-- Familiarity with image preprocessing concepts
-
-✅ **Documentation**:
-- Clean, well-commented code
-- Notes on interesting findings and questions for later
-- Understanding of what makes this problem challenging
+✅ **A Github repository, with appropriate name**
+- After finishing with EDA, push that to github, this is done via kaggle itself. 
 
 **Remember**: This week is about building strong foundations, not racing ahead. Focus on understanding concepts deeply rather than just completing checkboxes.
 
